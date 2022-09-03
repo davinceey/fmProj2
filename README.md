@@ -43,12 +43,7 @@ Users should be able to:
 
 
 ### What I learned
-
-Challenges: Trying to make the svg star align with the rest of the content.
-            Trying to align the submit button at the centre.
 I majorly learnt how to use the gradient property in transforming my main container's background color.
-
-To see how you can add code snippets, see below:
 
 
 ### Continued development
