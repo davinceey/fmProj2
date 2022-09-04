@@ -16,10 +16,8 @@ for (let rate of ratings) {
   rate.addEventListener("click", (e) => {
     let target = e.target;
     let ratedValue = target.innerText; // for tracking the value that was clicked by the user.
-    if (isSelected === false) {
-      isSelected = true;
-      target.classList.add("rate-number");
-    }
+  
+  
     btn.addEventListener("click", () => {
       rateSection.classList.add("invisible");
       thankSection.style.display = "flex";

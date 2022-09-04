@@ -18,12 +18,10 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 
-main{
+/* main{
     color: white;
     width: 20%;
     height: 40%;
-    /* padding: 4em; */
-    /* background-color: hsl(219, 24%, 11%); */
     border-radius: 25px;
     padding-bottom: 30px;
     display: flex;
@@ -32,7 +30,17 @@ main{
     flex-direction: column;
     background: linear-gradient(hsl(219, 24%, 11%) 60%, hsl(219, 20%, 26%));
     padding-right: 30px;
-}
+} */
+
+main {
+    color: white;
+    width: 20%;
+    padding: 1em;
+    border-radius: 25px;
+    background: linear-gradient(hsl(219, 24%, 11%) 60%, hsl(219, 20%, 26%));
+    padding-right: 50px;
+  }
+
 p{
     color: hsl(217, 12%, 63%);
     margin-left: 10%;
@@ -57,7 +65,8 @@ button{
     display: block;
     border-style: none;
     margin: 20px auto;
-    padding: 16px 8em;
+    margin-left: 35px;
+    padding: 16px 9em;
     text-align: center;
     border-radius: 27px;
     background-color: hsl(25, 97%, 53%);
@@ -71,6 +80,7 @@ button{
 button:hover{
     background-color: rgb(208, 83, 0);
 }
+
 .btn-div{
     display: flex;
     justify-content: center;
@@ -82,25 +92,30 @@ article{
     justify-content: space-around;
     width: 100%;
 }
-div{
-    padding: 0.9em;
-    padding-bottom: 1.2em;
+.rate-btn{
+    padding: 1.3em;
+    /* padding-bottom: 1.2em; */
     background-color: hsl(213, 19%, 18%);
     border-radius: 50%;
-    height: 16px;
-    width: 18px;
+    height: 50px;
+    width: 50px;
     margin: 7px;
     display: flex;
     flex-direction: row;
     text-align: center;
     color: hsl(217, 12%, 63%);
     transition: all 0.1s;
+    font-family: inherit;
 }
-div:nth-of-type(1){
+.rate-btn:nth-of-type(1){
     margin-left: 35px;
 }
-div:hover{
+.rate-btn:hover{
     background-color: hsl(213, 19%, 36%);
+}
+.rate-btn:focus{
+    /* background-color: hsl(213, 19%, 36%); */
+    background: hsl(213, 19%, 36%);
 }
 .rate-number{
     background-color: hsl(213, 19%, 36%);
@@ -139,22 +154,6 @@ div:hover{
 }
 
 @media(max-width: 1800px){
-    main{
-        width: 352px;
-    }
-}
-@media(max-width: 1628px){
-    main{
-        width: 352px;
-    }
-}
-@media(max-width: 900px){
-    main{
-        width: 352px;
-    }
-}
-
-@media(max-width: 436px){
     main{
         width: 352px;
     }
