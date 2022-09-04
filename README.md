@@ -44,6 +44,7 @@ Users should be able to:
 
 ### What I learned
 I majorly learnt how to use the gradient property in transforming my main container's background color.
+The 'focus' property in CSS, does not work on divs.
 
 
 ### Continued development
